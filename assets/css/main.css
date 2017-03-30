@@ -46,6 +46,12 @@
 -------------------------------------------------------------------*/
 
 
+html, body{
+width:100%;
+overflow-x:hidden;
+}
+
+
 /*-- Imports (only visible on scss file) --*/
 .logoAnimated{
     position: relative;
@@ -74,6 +80,7 @@
 .logotitle{
     margin-top: 400px;
     margin-left: 200px;
+
 }
 /*=======================================================
 			Typography
@@ -95,7 +102,7 @@ h2 {
     font-size: 3.56rem;
     color: #212121;
     letter-spacing: 0.1em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h3 {
@@ -109,6 +116,12 @@ h4 {
     font-size: 2.28rem;
     color: #212121;
     font-weight: 400;
+    letter-spacing: 0.1em;
+}
+.parallax-container h4 {
+    font-size: 1.8rem;
+    color: #212121;
+    font-weight: 450;
     letter-spacing: 0.1em;
 }
 
@@ -278,7 +291,7 @@ header {
 }
 
 header nav {
-    background: none;
+    background: white;
     box-shadow: none;
     height: 80px;
 }
@@ -311,7 +324,7 @@ header nav .nav-wrapper .button-collapse {
 
 header nav .nav-wrapper .button-collapse i {
     line-height: 80px;
-    color: white;
+    color: teal;
 }
 
 header .top-nav-collapse {
@@ -395,7 +408,7 @@ header .top-nav-collapse .nav-wrapper .button-collapse i {
     background-attachment: fixed;
     background-position: center;
 }
-
+/*
 #parallax h1 {
     font-weight: 700;
 }
@@ -403,7 +416,7 @@ header .top-nav-collapse .nav-wrapper .button-collapse i {
 #parallax h2 {
     color: #FFFFFF;
     font-weight: 700;
-}
+}*/
 
 #parallax .btn-primary,
 #parallax .btn-secondary {
@@ -416,11 +429,12 @@ header .top-nav-collapse .nav-wrapper .button-collapse i {
 ========================================================*/
 
 #particles-bg {
-    /*background: url(curiato.png);*/
+    background: url(AdobeStock_59275700.jpeg);
     background-size: 100% 100%;
     background-attachment: fixed;
     background-position: center;
     background-color: teal;
+    background-blend-mode: soft-light;
     /* ---- particles.js container ---- */
     /* ---- stats.js ---- */
 }
@@ -1103,3 +1117,45 @@ footer.page-footer h2 span {
 
 
 /*# sourceMappingURL=main.css.map */
+
+/*#veloimg{
+
+    margin-left: 300px;
+}
+#comimg{
+
+    margin-left: 30px;
+    margin-bottom: 50px;
+}*/
+
+#veloimg{
+
+    margin-left: 100px;
+}
+#comimg{
+
+   /* margin-left: 30px;*/
+    margin-bottom: 30px;
+}
+
+#tracimg{
+
+    margin-left: 40px;
+}
+
+.parallax-container h4 {
+
+    margin-top: 60px;
+
+}
+.parallax-container img{
+    height: 1000px;
+    width: 1000px;
+
+
+}
+
+#partnerships {
+    padding: 8% 0;
+    text-align: center;
+}
