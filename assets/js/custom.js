@@ -218,11 +218,8 @@ $(document).ready(function () {
     particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 80,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
+      "value": 20,
+      
     },
     "color": {
       "value": "#ffffff"
@@ -254,7 +251,7 @@ $(document).ready(function () {
     },
     "size": {
       "value": 3,
-      "random": true,
+      "random": false,
       "anim": {
         "enable": false,
         "speed": 40,
@@ -270,7 +267,7 @@ $(document).ready(function () {
       "width": 1
     },
     "move": {
-      "enable": true,
+      "enable": false,
       "speed": 6,
       "direction": "none",
       "random": false,
@@ -288,7 +285,7 @@ $(document).ready(function () {
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "onclick": {

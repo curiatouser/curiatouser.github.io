@@ -3447,8 +3447,8 @@ input[type=range] + .thumb {
 }
 
 .container .row {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
 }
 
 .section {
@@ -3469,8 +3469,6 @@ input[type=range] + .thumb {
 }
 
 .row {
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 20px;
 }
 
@@ -3483,7 +3481,7 @@ input[type=range] + .thumb {
 .row .col {
   float: left;
   box-sizing: border-box;
-  padding: 0 0.75rem;
+  padding:0.75em;
 }
 
 .row .col[class*="push-"], .row .col[class*="pull-"] {
@@ -3909,13 +3907,13 @@ input[type=range] + .thumb {
     right: auto;
   }
   .row .col.l2 {
-    width: 16.6666666667%;
+    width: 100%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
   .row .col.l3 {
-    width: 25%;
+    width: 10%;
     margin-left: auto;
     left: auto;
     right: auto;

@@ -516,8 +516,9 @@ div .hero-text .btn-large{
 ========================================================*/
 
 #about {
-    padding: 120px 0;
+    padding: 60px 0;
     text-align: center;
+    color: teal; 
 }
 
 #about .col {
@@ -525,7 +526,7 @@ div .hero-text .btn-large{
 }
 
 #about .row {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 #about h2 span {
@@ -550,6 +551,7 @@ div .hero-text .btn-large{
 
 #about h5 {
     margin: 30px 0;
+    font-size: 25px; 
 }
 
 #about p {
@@ -728,10 +730,12 @@ div .hero-text .btn-large{
 ========================================================*/
 
 #services {
-    background-color: #F3432C;
+    background-color: teal;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    color: #FFFFFF;
+    text-align: center;
     padding: 60px 0;
 }
 
@@ -747,8 +751,13 @@ div .hero-text .btn-large{
     color: #F3432C;
 }
 
-#services .services-content h2 {
+#services h2 {
     color: #FFFFFF;
+}
+
+#services h5 {
+    color: #FFFFFF;
+    font-size: 30px; 
 }
 
 #services .services-content h2 span {
@@ -759,6 +768,79 @@ div .hero-text .btn-large{
 #services .services-content p {
     color: #FFFFFF;
 }
+
+
+/*=======================================================
+            Team
+========================================================*/
+
+#team {
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #teal;
+    align-content: center;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#team .profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; 
+    margin-top: 50px
+}
+
+#team div {
+    align-content: center;
+} 
+
+#team h2 {
+    color: teal;
+    padding-bottom: 50px; 
+}
+
+#team h5 {
+    color: #000000;
+    text-align: center; 
+    font-size: 25px;
+}
+
+
+#team p {
+    font-size: 20px; 
+}
+
+#team .container .row {
+}
+
+
+/*=======================================================
+            Parnterhsips
+========================================================*/
+
+#partnerships {
+    background-color: teal;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#partnerships img{
+    background-color: white;
+    width: 100%;
+    margin: 20px;
+}
+
+#partnerships h2 {
+    color: #FFFFFF;
+}
+
+
 
 
 /*=======================================================
@@ -803,6 +885,7 @@ div .hero-text .btn-large{
             Team 
 ========================================================*/
 
+/*
 #team {
     padding: 120px 0;
 }
@@ -861,7 +944,7 @@ div .hero-text .btn-large{
     color: #212121;
 }
 
-
+*/
 /*=======================================================
             Newsletter 
 ========================================================*/
@@ -1003,7 +1086,7 @@ div .hero-text .btn-large{
 ========================================================*/
 
 #contact {
-    background: teal;
+    background: white;
     padding: 60px 0;
 }
 
@@ -1012,11 +1095,11 @@ div .hero-text .btn-large{
 }
 
 #contact h2 {
-    color: #FFFFFF;
+    color: teal;
 }
 
 #contact h2 span {
-    color: #F3432C;
+    color: teal;
     font-size: 4rem;
 }
 
@@ -1026,16 +1109,18 @@ div .hero-text .btn-large{
 
 #contact form input,
 #contact form textarea {
-    color: #FFFFFF;
-    border-bottom: 1px solid #FFFFFF;
+    color: teal;
+    border-bottom: 1px solid teal;
 }
 
 #contact form label {
-    color: #FFFFFF;
+    color: teal;
 }
 
 #contact form button {
     margin: 1.78rem 0 1.424rem 0;
+    color: #ffffff;
+    background-color: teal;
 }
 
 
@@ -1054,19 +1139,23 @@ div .hero-text .btn-large{
 ========================================================*/
 
 footer.page-footer {
-    background: white;
+    background: teal;
     margin: 0;
 }
 
 footer.page-footer h2 {
     font-size: 2rem;
-    color: teal;
+    color: white;
     font-weight: 700;
 }
 
 footer.page-footer h2 span {
-    color: teal;
+    color: white;
     font-size: 4rem;
+}
+
+footer.img {
+    background-color: white;
 }
 #address1 p{
    /* margin-left: 175px;
@@ -1149,7 +1238,7 @@ footer.page-footer h2 span {
 
 .parallax-container h4 {
 
-    margin-top: 60px;
+    margin-top: 20px;
 
 }
 .parallax-container img{
@@ -1159,7 +1248,7 @@ footer.page-footer h2 span {
 
 }
 
-#partnerships {
-    padding: 8% 0;
-    text-align: center;
+#services h5 {
+    margin: 30px 0;
+    font-size: 25px;
 }
