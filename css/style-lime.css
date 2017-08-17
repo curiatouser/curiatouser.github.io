@@ -1,0 +1,95 @@
+﻿/* Color Scheme - Lime */
+
+a {
+	color: #cddc39;
+}
+
+a:hover, a:focus {
+	color: #cddc39;
+}
+
+body.layer-active .navbar-nav>li>a.active {
+	box-shadow: inset 0 -1px 0 #cddc39
+}
+
+body.layer-active .navbar-nav>li>a.active {
+	color: #cddc39;
+}
+
+body.layer-active .navbar-nav>li>a.active,
+body.layer-active .navbar-nav>li>a:hover {
+	color: #cddc39;
+}
+
+.close-btn:hover,
+.close-btn.dark:hover {
+	color: #cddc39;
+}
+
+.form-control.focus-select:focus {
+	border-color: #cddc39;
+}
+
+.progress-1 .progress-bar {
+	background-color: #cddc39;
+}
+
+.progress-2 .progress-bar {
+	background-color: #cddc39;
+}
+
+.mCS-bt-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-bt-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-bt-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+	background-color: #cddc39;
+}
+
+.button {
+	background-color: #cddc39;
+}
+
+.button.button-link,
+.button.button-link i {
+	color: #cddc39;
+}
+
+.button.button-modern {
+	color: #cddc39;
+}
+
+.button.button-modern.alternative {
+	border: 1px solid #cddc39;
+}
+
+.button.button-modern i,
+.button.button-modern:hover,
+.button.button-modern:hover i {
+	color: #cddc39;
+}
+
+.button.button-modern::before {
+	border-top: 1px solid #cddc39;
+	border-left: 1px solid #cddc39;
+}
+
+.button.button-modern::after {
+	border-bottom: 1px solid #cddc39;
+	border-right: 1px solid #cddc39;
+}
+
+.portfolio-filter .active {
+	border-color: #cddc39;
+	color: #cddc39;
+}
+
+.highlight {
+	color: #cddc39;
+}
+
+.icon-box .icon-box-icon {
+    color: #cddc39;
+}
+
+.icon-box-2 .icon-box-icon {
+	color: #cddc39;
+}
