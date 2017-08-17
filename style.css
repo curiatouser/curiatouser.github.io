@@ -2854,12 +2854,12 @@ a.button-image:hover {
 
 .button.button-modern {
 	background-color: transparent;
-	color: #2951d5;
+	color: white;
 	border-radius: 0 !important;
 }
 
 .button.button-modern.alternative {
-	border: 1px solid #2951d5;
+	border: 1px solid #229970;
 	line-height: 38px;
 }
 
