@@ -68,6 +68,25 @@
 				  h2 {
 				  font-family: spray;
 				  }
+
+					@media screen and (max-width: 480px) {
+					    .container-fluid.headmob {
+					        margin-right: 100px;
+					    }
+							h1.text-white{
+								font-size: 40px;
+							}
+							.mobcol{
+								margin-left: 80px !important;
+								top:-100px;
+							}
+							.meet{
+								margin-left: unset !important;
+							}
+							.dropdown-menu{
+								left: -40px !important;
+							}
+						}
  </style>
 
 	</head>
@@ -80,7 +99,7 @@
 		<nav class="navbar navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<img src="images/logo2.png" alt="" class="logo-light hidden-lg hidden-md" style="width: 50%;">
+					<img src="images/logo2.png" alt="" class="logo-light center hidden-lg hidden-md" style="width: 50%;position: absolute;margin-left: 100px;">
 
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 						<span class="sr-only">Toggle navigation</span>
@@ -122,19 +141,19 @@
 				<div class="home-content">
 
 					<section class="section home-section fullscreen-element">
-						<img src="images/logo2.png" alt="" class="logo-light" style="width: 25%;float: left; position:absolute; top:100px;">
+						<img src="images/logo2.png" alt="" class="logo-light hidden-xs hidden-sm" style="width: 25%;float: left; position:absolute; top:100px;">
 						<div class="section-container">
 
 							<div class="table-container">
 								<div class="table-content">
-									<div class="container-fluid">
+									<div class="container-fluid headmob">
 										<div class="row">
 
-											<div class="col-md-5 col-md-offset-2" style="width: unset; margin-left: 40%;">
+											<div class="col-md-5 col-md-offset-2 mobcol" style="width: unset; margin-left: 40%;">
 												<div class="text-slider animated onstart" data-animation="fadeInRight" data-animation-delay="800">
 													<ul class="slides">
 														<li>
-															<h1 class="text-white">where curiosity<br><span style="margin-left: 175px;">meets innovation</span></h1>
+															<h1 class="text-white">where curiosity<br><span class="meet" style="margin-left: 175px;">meets innovation</span></h1>
 														</li>
 													</ul>
 												</div>
