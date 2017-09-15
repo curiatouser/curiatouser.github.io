@@ -28,6 +28,8 @@
 		<link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
 		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css">
 
+
+
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -69,7 +71,7 @@
 				  font-family: spray;
 				  }
 
-					@media screen and (max-width: 480px) {
+					@media screen and (max-width: 768px) {
 					    .container-fluid.headmob {
 
 					    }
@@ -101,6 +103,15 @@
 							}
 
 						}
+
+						@media screen and (max-width: 767px){
+
+								.hidden-sm-down {
+    							display: none!important;
+							}
+						}
+
+
  </style>
 
 	</head>
@@ -132,10 +143,10 @@
 					<!-- <a class="navbar-brand open-home-btn" href="#" data-target="#home">
 						<img src="images/logo2.png" alt="" class="logo-light" width="20%" />
 						<img src="images/logo2.png" alt="" class="logo-dark" width="20%" /> -->
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#" data-target="#home" class="open-home-btn active">Home</a></li>
-							<li><a href="#" data-target="#about" class="load-layer-btn">About</a></li>
-							<li><a href="#" data-target="#contact" class="load-layer-btn">Contact</a></li>
+						<ul class="nav navbar-nav navbar-right hidden-sm-down">
+							<li><a href="#" data-target="#home" class="open-home-btn active hidden-sm-down">Home</a></li>
+							<li><a href="#" data-target="#about" class="load-layer-btn hidden-sm-down">About</a></li>
+							<li><a href="#" data-target="#contact" class="load-layer-btn hidden-sm-down">Contact</a></li>
 						</ul>
 
 					<!-- <div class="navbar-overlay"></div> -->
